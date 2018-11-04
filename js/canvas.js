@@ -5,9 +5,6 @@ class Canvas {
     this.board.width = container.offsetWidth;
     this.board.height = FLOOR;
     this.spheres = [];
-
-    this.graphicX = 100;
-    this.graphicY = this.board.height - 5;
   }
 
   clearBoard() {
