@@ -1,0 +1,36 @@
+/* resets the body */
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.board-section{
+  background-color: #c0c0c0;
+}
+
+#board-holder {
+  width: 90%;
+  margin: auto;
+  padding-top: 60px;
+  padding-bottom: 100px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  /* Sets #board-holder as reference for all inner elements with position: absolute; */
+  position: relative;
+}
+
+canvas {
+  max-width: 1000px;
+  border: 5px solid #b3b3b3;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+#input-sphere{
+  padding: 15px;
+  position: absolute;
+  top: 0;
+}
