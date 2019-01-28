@@ -2,7 +2,7 @@
 
 Simple animation to show acceleration effect in spheres moving in Canvas.
 
-Set the origin of the sphere using the scroll bar at on the left side of the Control Bar or by setting the distance in pixels relative to the left side of the canvas (0, 0) on the "Position Y" input field [control-bar](./screenshots/control-bar.png)
+Set the origin of the sphere using the scroll bar at on the left side of the Control Bar or by setting the distance in pixels relative to the left side of the canvas (0, 0) on the "Position Y" input field ![control-bar](./screenshots/control-bar.png)
 
 You can also set the radius of the sphere, but that doesn't imply any change to the acceleration effect, because in reallity the acceleration of objects on a gravitational field is the same for all.
 
